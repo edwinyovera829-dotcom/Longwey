@@ -1,0 +1,85 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #111;
+}
+
+/* Encabezado */
+header {
+    background-color: #0d1b2a; /* azul oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00aaff; /* azul brillante */
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    margin: 10px auto;
+    background-color: white;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #0d1b2a;
+}
+
+/* Productos */
+.productos-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    flex: 1 1 200px;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0077aa;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0d1b2a;
+    color: white;
+}
